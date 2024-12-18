@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contents{
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.product img {
+    width: 400px;
+    margin: 10px;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.header{
+    display: flex;
+    background-color: #e81521;
+    color: #ffffff;
+    position: fixed;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 64px;
+    padding: 0 64px;
+    z-index: 102;
+}
+
+.header ul{
+    display: flex;
+}
+
+.header li{
+    margin: 20px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;   
+    display: block;
+}
+
+a:hover{
+    color: #ddc9c9;
+   
+}
+
+.footer{
+    text-align: center;
+    color: #8f8f8f;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+}
+
+.header h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 60px;
+    font-size: 50px;
+  }
+body{
+    background-color:#f5f1c8;
+  }
+.photobox1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .photobox2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .photobox3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.pumpkins{
+    margin: 5px;
+  }
+.marmalade{
+    margin: 5px;
+}
+.carrot{
+    margin: 5px;
+}
+.tomato{
+    margin: 5px;
+}
+.corn{
+    margin: 5px;
+}
+.food{
+    margin: 5px;
+}
+.eggs{
+    margin: 5px;
+}
+.parsley{
+    margin: 5px;
+}
+.bamboo-shorts{
+    margin: 5px;
+}
+
+@media (max-width: 700px) {
+   
+}

@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contents{
+    display: none;
+    justify-content: center;
+}
+.contact{
+    display: none;
+    justify-content: center;
+}
